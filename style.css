@@ -288,6 +288,7 @@ section{
     border: rgb(53,53,53) 0.1rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
+    margin-top: 20px;
 }
 
 .section-container{
@@ -315,11 +316,11 @@ section{
 .experience-details-container{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .article-container{
-    display: flex;
+    display:flex;
     text-align: initial; 
     flex-wrap: wrap;
     flex-direction: row;
@@ -328,9 +329,9 @@ section{
 }
 
 article{
-    display: flex;
+    /* display: flex; */
     width: 0.5rem;
-    justify-content:space-around;
+    /* justify-content:space-around; */
     gap: 0rem;
 }
 article .icon{
@@ -338,8 +339,8 @@ article .icon{
 }
 
 .coop-container{
-    /* margin-top: 30px; */
-    /* margin-bottom: 20px; */
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -415,7 +416,7 @@ article .icon{
     justify-content: center;
     flex-direction: column;
     height: 70vh;
-    margin-top: 100px;
+    margin-top: 500px;
 }
 
 .contact-info-upper-container{
